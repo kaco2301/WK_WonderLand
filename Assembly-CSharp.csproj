@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{11256771-CA17-2AD1-DE6E-722B424E901F}</ProjectGuid>
+    <ProjectGuid>{70D86462-A61D-EB50-4A2D-ECAFCB1493F8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,8 +56,19 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\WonderlandMap\Scripts\FPSGame\PistolSetting.cs" />
+    <Compile Include="Assets\WonderlandMap\Scripts\FPSGame\RotateToMouseFPS.cs" />
+    <Compile Include="Assets\WonderlandMap\Scripts\GameManager.cs" />
+    <Compile Include="Assets\WonderlandMap\Scripts\FPSGame\PlayerControllerFPS.cs" />
+    <Compile Include="Assets\WonderlandMap\Scripts\FPSGame\PistolFire.cs" />
     <Compile Include="Assets\WonderlandMap\Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\WonderlandMap\Scripts\PistolController.cs" />
+    <Compile Include="Assets\WonderlandMap\Scripts\InputManager.cs" />
     <Compile Include="Assets\WonderlandMap\Scripts\ButtonController.cs" />
+    <Compile Include="Assets\WonderlandMap\Scripts\DestroyBullet.cs" />
+    <Compile Include="Assets\WonderlandMap\Scripts\FPSGame\MemoryPool.cs" />
+    <Compile Include="Assets\WonderlandMap\Scripts\FPSGame\Casing\Casing.cs" />
+    <Compile Include="Assets\WonderlandMap\Scripts\FPSGame\Casing\CasingMemoryPool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
